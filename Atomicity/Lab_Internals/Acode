@@ -3,8 +3,7 @@ import java.sql.*;
 
 public class BookApp {
 	   
-	   static String connectionURL = "jdbc:sqlserver://localhost:3306/bookstore;integratedSecurity=false;user=root;password=Mysql1@123mysql";
-	   
+	   static String connectionURL = "jdbc:sqlserver://172.16.51.44;" +"databaseName=221047012;integratedSecurity=false;user=SAHANA;password=sahana$215";
 	   public static void main(String[] args) throws SQLException
 	   {
 		   Connection connection = null;
